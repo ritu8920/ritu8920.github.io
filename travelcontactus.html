@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Travel Trails</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+  .navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover { background-color: lightblue; color: black; }
+  .contact-section {
+    background: #008080;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    display: inline-block;
+    max-width: 600px;
+    margin: auto;
+  }
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  .contact-form button {
+    padding: 15px 30px;
+    background: #66CDAA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  .contact-form button:hover {
+    background: #5F9EA0;
+  }
+  .map-container {
+    width: 100%;
+    height: 400px;
+    background: url('map-image.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .info-container {
+    background: #333;
+    padding: 20px;
+    text-align: left;
+  }
+  .info-container h3 {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  .info-container p {
+    color: #ddd;
+    line-height: 1.6;
+  }
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="travel.html">Home</a>
+    <a href="travelabout.html">About</a>
+    <a href="travelservices.html">Services</a>
+    <a href="travelbooking.html">Booking</a>
+    <a href="travelcontactus.html">Contact</a>
+  </div>
+  
+
+<section class="contact-section">
+  <h2>Contact Travel Trails</h2>
+  <div class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </div>
+</section>
+
+<div class="info-container">
+  <h3>Our Office</h3>
+  <p>123 Adventure Lane, Travel City, TX 75001</p>
+  <h3>Phone</h3>
+  <p>+1 (555) 123-4567</p>
+  <h3>Email</h3>
+  <p>contact@traveltrails.com</p>
+</div>
+<footer>
+        <p>&copy; 2024 Travelling Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

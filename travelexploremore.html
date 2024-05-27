@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore More - Wanderlust Voyages</title>
+<h1><center>Explore More - Wanderlust Voyages</center></h1>
+<style>
+   @keyframes flowIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            animation: flowIn 2s ease-out forwards;
+        }
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+  .navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover { background-color: lightblue; color: black; }
+  
+  .explore-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 51px;
+    background: #fff;
+  }
+  .explore-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .explore-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  .explore-item:hover img {
+    transform: scale(1.1);
+  }
+  .explore-info {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    transform: translateY(100%);
+  }
+  .explore-item:hover .explore-info {
+    transform: translateY(0);
+  }
+  .explore-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .explore-text {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="travel.html">Home</a>
+    <a href="travelabout.html">About</a>
+    <a href="travelservices.html">Services</a>
+    <a href="travelbooking.html">Booking</a>
+    <a href="travelcontactus.html">Contact</a>
+  </div>
+  
+
+<div class="explore-container">
+  <div class="explore-item">
+    <img src="unnamed.jpg" alt="Destination Image">
+    <div class="explore-info">
+      <h3 class="explore-title">Mystical Mountains</h3>
+      <p class="explore-text">Journey through the serene and majestic mountain ranges that touch the skies.</p>
+    </div>
+  </div>
+  <div class="explore-item">
+    <img src="istockphoto-1360554439-612x612.jpg" alt="Destination Image">
+    <div class="explore-info">
+      <h3 class="explore-title">Tropical Paradise</h3>
+      <p class="explore-text">Relax on the sun-kissed beaches and embrace the vibrant tropical culture.</p>
+    </div>
+  </div>
+  <div class="explore-item">
+    <img src="back-view-women-narrow-street_23-2147771241.jpg" alt="Destination Image">
+    <div class="explore-info">
+      <h3 class="explore-title">Urban Excursions</h3>
+      <p class="explore-text">Discover the bustling city life, full of history, art, and culinary delights.</p>
+    </div>
+  </div>
+    </div>
+
+
+
+
+  <!-- Add more explore items as needed -->
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+        <p>&copy; 2024 Travelling Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
