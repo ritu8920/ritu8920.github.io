@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Trails</title>
+<style>
+  * { box-sizing: border-box; }
+  body, html { margin: 0; padding: 0; font-family: 'Arial', sans-serif; }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+  .navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover { background-color: lightblue; color: black; }
+  .welcome-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background: url('R.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .welcome-section h1 {
+    color: GhostWhite;
+    font-size: 3em;
+    margin-bottom: 0.1em;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  .welcome-section p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    animation: fadeInUp 1s ease-out 0.5s forwards;
+  }
+  @keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .explore-button {
+    padding: 1em 2em;
+    font-size: 1em;
+    color: white;
+    background-color: #0066cc;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    animation: fadeInUp 1s ease-out 1s forwards;
+  }
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="travel.html">Home</a>
+  <a href="travelabout.html">About</a>
+  <a href="travelservices.html">Services</a>
+  <a href="travelbooking.html">Booking</a>
+  <a href="travelcontactus.html">Contact</a>
+</div>
+
+<div class="welcome-section">
+  <h1>Welcome to Our Travel Website</h1>
+  <p>Embark on a Journey of Discovery</p>
+  <p>Join us to explore the most enchanting destinations and create stories that last a lifetime.</p>
+  <a href="travelexploremore.html"
+  <button class="explore-button">Explore More</button>
+</a>
+</div>
+
+
+<footer>
+        <p>&copy; 2024 Travelling Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
